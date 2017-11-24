@@ -1,0 +1,68 @@
+.banner {
+	height: 100px;
+}
+
+body {
+	min-height: 1500px;
+}
+
+#title {
+	color: white;
+	margin-top: 0px;
+	margin-left: 10%;
+	margin-bottom: 0px;
+	padding-top: 0.5em;
+}
+
+#pagina {
+	text-align: center;
+}
+
+#imgLeader {
+	width: 75px;
+	height: 75px;
+}
+
+.leader {
+	margin: 2% 8%;	
+}
+
+/*
+.container, .row, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-7, .col-sm-8 {
+	border: 1px solid #000000;
+}*/
+
+.row {
+	padding-left: 10%;
+	padding-right: 10%;
+	border-bottom: 1px solid #27aacf;
+	box-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+}
+
+.milky, .dias, .tiempo {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;
+  /*display: block;*/
+  font-size: 2em;
+  color: #27aacf;
+  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-align: left;
+  /*background: linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%);*/
+  /*position: absolute;*/
+  border-radius: 20px;
+}
+
+.dias, .tiempo{
+	font-size: 1.4em;
+}
+
+.dias {
+	/*color: #00dd1b;*/
+	color: #27cccf;
+}
+
+.tiempo {
+	color: #27dddf;
+}

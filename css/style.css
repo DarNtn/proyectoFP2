@@ -1,0 +1,177 @@
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #CEECF5 !important;
+	min-height: 1000px;
+}
+
+.engine {
+	display: none;
+}
+
+/* Estilo del navbar */
+.navbar{
+	background-color:#0B173B;
+	box-shadow:0px 5px 5px #888888;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	height: 60px;
+	padding: 0.2em;
+}
+
+.activa a {
+	text-decoration: underline;
+	color: white !important;
+}
+
+.nav a:hover{
+	text-decoration: underline !important;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
+
+#espolimg{
+	border:0;
+	height: 100%;
+	vertical-align:middle;
+}
+
+#userimg{
+	vertical-align:middle;
+	padding:0.2em;
+	width:25px;
+}
+
+/* Estilos del banner*/
+.banner{
+	height: 250px;
+	margin:0px auto;
+	background-image: url("https://media.coindesk.com/uploads/2014/10/shutterstock_114252466.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+/* Estilo en barra de busqueda - banner */
+#barraBuscar {
+	margin:2em;
+	float:right;
+    width: 150px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#barraBuscar:focus{
+    width: 20%;
+}
+
+/* Titulo de la aplicacion mostrado en el banner */
+#titulo{
+	font-size:50px;
+	text-align:center;
+	color:white;
+	margin: 0px;
+	padding-top:2em;
+	padding-bottom:1em;
+}
+
+/* Imagen de playstore para descargas - banner */
+#androidSLogo{
+	margin-left:41%;
+	width:15%;
+	display:visible;
+}
+
+/* Contenido de la pagina: mascota y mensaje */
+#mascotaLogo{
+	width:25%;
+	padding:0.5em;
+	padding-left:5em;
+	margin-right:5%;
+	float:left;
+	clear:both;
+}
+
+#content{
+	display:inline-block;
+}
+
+#message{
+	text-align:center;
+	background-color:#dddddd;
+	padding-top:1em;
+	padding-left:1em;
+	padding-right:2em;
+	padding-bottom:1em;
+	margin-top:4em;
+	margin-left:30%;
+	margin-right:10em;
+	border:1px solid #0040FF;
+	border-radius: 20px 30px 30px 5px;
+	width:50%;
+}
+
+
+/* Estilos del carousel */
+img.img-circle {
+	width: 160px;
+	height: 160px;	
+}
+
+img.img-circle:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 140, 186, 0.7);
+}
+
+h3 {
+	text-align: left;
+}
+
+
+/* Footer*/
+footer{
+	background-color:#dddddd !important;
+	text-align: center;
+	position: absolute;
+	top: 900px;
+	bottom: 0;
+}
+
+#facebookLogo{
+	width:3%;
+}
+#twitterLogo{
+	width:4%;
+}
+#mailLogo{
+	width:4%;
+}
+
+
+/*descarga*/
+.jumbotron {
+	margin: 0 auto;
+	width: 90%;
+}
+
+img#screenshots {
+	width: 100%;
+}
+
+div.contenedor1 {
+	margin: 100px 15%;
+}
+
+h3.descarga-subtitulo {
+	margin-top: 25%;
+}
+
+p.descarga-texto {
+	text-align: justify;
+}
