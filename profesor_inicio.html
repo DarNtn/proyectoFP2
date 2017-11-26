@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<html class="no-js" > 
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fundamentos Play</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/actividad-reciente.css">
+        <link rel="stylesheet" href="assets/css/basic-profesor.css">
+
+    </head>
+
+    <body>
+	
+		<header>
+            <div class="container-fluid navbar" >
+
+                <div class="col-sm-1" >
+                    <figure>
+                        <img id="navlogo" src="http://www.espol.edu.ec/sites/default/files/logo-espol_0_0.png" alt="EspolLogo"/>
+                    </figure>
+                </div>
+                <div class="col-sm-11" id="nombre-section" >
+                    <a  href="#">Eduardo Cruz [Profesor]</a>
+                </div>
+
+            </div>
+        </header>
+        
+	
+		<div class="side-menu container col-sm-3">
+            <!--aqui va el menu-->
+			<div class="sidebarStyle">
+				<div class="text-xs-center text-sm-left ">			
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>  Preguntas</a></li>
+						<li><a href="#" class="menu-option"><span class="glyphicon glyphicon-ok "></span > Aprobar preguntas <span class="badge">5</span></a></li>
+						<li><a href="#" class="menu-option"><span class="glyphicon glyphicon-pencil"></span> Corregir preguntas <span class="badge">6</span></a></li>
+						<li><a href="profesor_add_pregunta.html" class="menu-option"><span class="glyphicon glyphicon-plus"></span>  Crear pregunta </a></li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span>  Usuarios</a></li>
+						<li><a href="profesor_aprobar_usuarios.html" class="menu-option"><span class="glyphicon glyphicon-thumbs-up"></span>  Aprobar usuarios <span class="badge">5</span></a></li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-stats"></span>  Estadísitcas</a></li>
+						<li><a href="#" class="menu-option"><span class="glyphicon glyphicon-stats"></span>  Estadísticas de usuarios</a></li>
+						<li><a href="#" class="menu-option"><span class="glyphicon glyphicon-stats"></span>  Estadísticas de preguntas</a></li>
+					</ul>
+				</div>
+			</div>
+        </div>
+
+        
+      
+		<div class="principal container  col-sm-9">
+	   
+			<section class="activitiesbox">
+				<h2>Actividad reciente</h2>
+						<!--Aquí van las actividades leidas del json-->
+			</section>
+			
+		</div>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+		<!-- Actividades.js-->		
+		<script src="assets/js/actividades.js"></script>	
+        
+       
+      
+        
+
+    </body>
+</html>

@@ -1,0 +1,80 @@
+	
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+}
+
+
+
+.menu-option{
+	text-align:left;
+}
+
+.perfil-name{
+	color: white;
+}
+
+.side-menu{
+		width:20% !important;
+		position:static;
+}
+
+
+/*Actividades*/
+.notice-icon{
+    height: 50px;
+    width: 50px;
+	margin: 5px;
+	
+}
+
+.actividad-date{
+    text-align: right;
+}
+
+.actividad{
+    border-bottom: 1px dotted black;
+}
+.actividad-body>* {
+    display: inline-block;
+	
+}
+.principal{
+    padding: 20px ;
+}
+
+
+
+/***** navbar*****/
+
+#navlogo{
+	text-align:left;
+    margin: 5px 5px 5px; 
+}
+
+#nombre-section  {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+#nombre-section a {
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.navbar{
+    background-color: #337ab7;
+}
+
+.navbar>* {
+    display: inline-block;
+}
+
+
+
+
+
+
