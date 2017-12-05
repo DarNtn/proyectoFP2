@@ -3,11 +3,11 @@
 }
 
 body {
-	min-height: 1500px;
+	overflow: auto;
 }
 
 #title {
-	color: white;
+	color: #0B173B;
 	margin-top: 0px;
 	margin-left: 10%;
 	margin-bottom: 0px;
@@ -22,47 +22,87 @@ body {
 	width: 75px;
 	height: 75px;
 }
-
+/*
 .leader {
 	margin: 2% 8%;	
 }
+*/
+
+#leaderboard {
+	box-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+}
 
 /*
-.container, .row, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-7, .col-sm-8 {
+.container, #player, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-7, .col-sm-8 {
 	border: 1px solid #000000;
 }*/
 
-.row {
+#player {
 	padding-left: 10%;
 	padding-right: 10%;
-	border-bottom: 1px solid #27aacf;
-	box-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+	border-bottom: 1px solid #666666;	
+	background-color: #eeeeee;
+	height: 103px;
+}
+
+#player:hover {
+	opacity: 1;
+	background-color: #ffffff;
 }
 
 .milky, .dias, .tiempo {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
   text-transform: uppercase;
-  /*display: block;*/
   font-size: 2em;
-  color: #27aacf;
-  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  color: #555555;
+  /*text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;*/
   font-weight: bold;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   text-align: left;
   /*background: linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%);*/
-  /*position: absolute;*/
   border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;   
+  padding: 0;  
+  left: 0;
+  top: 0;
+  background-color: #0B173B;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+#player:hover .overlay {
+  bottom: 0;
+  width: 100%;
+  cursor:pointer;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 1.2em;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.item-center {
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	height: 100%;
 }
 
 .dias, .tiempo{
 	font-size: 1.4em;
 }
 
-.dias {
-	/*color: #00dd1b;*/
-	color: #27cccf;
-}
-
-.tiempo {
-	color: #27dddf;
+.dias, .tiempo {
+	color: #999999;
 }
