@@ -2,18 +2,15 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Fundamentos Play - Preguntas</title>
+	<title>Fundamentos Play - Informacion</title>
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
-	<link type="text/css" rel="stylesheet" href="css/stylefaq.css"/>
 	<link type="text/css" rel="stylesheet" href="css/leader.css"/>
-	
+	<link type="text/css" rel="stylesheet" href="css/stylefaq.css"/>	
 </head>
 <body>
-	
-	
 	<header>
-
 		<nav class="navbar navbar-inverse navbar-static-top">
 	      <div class="container">
 	        <div class="navbar-header">
@@ -37,10 +34,10 @@
 	          <ul class="nav navbar-nav">
 	            <li><a href="index.html">Inicio</a></li>
 	            <li><a href="noticias.html">Noticias</a></li>
-	            <li><a href="informacion.html">Información</a></li>
+	            <li class="activa"><a href="informacion.html">Información</a></li>
 	            <li><a href="tutorial.html">Tutorial</a></li>
 	            <li><a href="leaderboard.html">Leaderboard</a></li>
-	            <li class="activa"><a href="faq.html">Preguntas Frecuentes</a></li>
+	            <li><a href="faq.html">Preguntas Frecuentes</a></li>
 	          </ul>
 	          <ul class="nav navbar-nav navbar-right">
 	            <li><a href="registro.html">Registrarse</a></li>
@@ -50,20 +47,20 @@
 	        </div><!--/.nav-collapse -->
 	      </div>
     	</nav>
-
-    	<div class="banner mbr-parallax-background">			
+			
+		<div class="banner mbr-parallax-background">			
 			<span>
 				<input id="barraBuscar" type="text" name="buscar" placeholder="Buscar...">				
 			</span>							
 			<h1 id="title">Fundamentos Play</h1>
-		</div>	
-		
+		</div>
+
 	</header>
 
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row-flex">
 			<div class="col-md-9 col-sm-6 col-xs-7">
-				<h2 id="title-faq">Preguntas Frecuentes</h2>
+				<h2 id="title-faq">Información</h2>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-5 item-center">
 				<img class="logo" src="img/mascotaLogo.png" alt="Fundamentos Play logo">
@@ -71,29 +68,8 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="seccion-preguntas">
-				<div id="contenedor-pregunta">
-					<h4 id="pregunta">¿Pregunta?</h4>
-				</div>
-				<div id="contenedor-respuesta">
-					<p id="respuesta">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-				</div>
-				<div id="contenedor-pregunta">
-					<h4 id="pregunta">¿Pregunta?</h4>
-				</div>
-				<div id="contenedor-respuesta">
-					<p id="respuesta">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-				</div>
-				<div id="contenedor-pregunta">
-					<h4 id="pregunta">¿Pregunta?</h4>
-				</div>
-				<div id="contenedor-respuesta">
-					<p id="respuesta">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-				</div>
-			</div>
-		</div>
+	<div class="container" id="info">		
+		
 	</div>
 
 	<footer>
@@ -112,12 +88,14 @@
         </div>
     </footer>
 
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="assets/jarallax/jarallax.min.js"></script>
+    <script src="js/leader.js"></script>
+    <script src="assets/jarallax/jarallax.min.js"></script>
   	<script src="assets/theme/js/script.js"></script>
-  	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 	
 </body>
